@@ -38,7 +38,7 @@ The API server will start using the PORT `5000`.
 
 ## How to use the code
 
-**Step #1** - Clone the project
+> **Step #1** - Clone the project
 
 ```bash
 $ git clone https://github.com/app-generator/flask-api-sample.git
@@ -47,7 +47,7 @@ $ cd flask-api-sample
 
 <br />
 
-**Step #2** - create virtual environment using python3 and activate it (keep it outside our project directory)
+> **Step #2** - create virtual environment using python3 and activate it (keep it outside our project directory)
 
 ```bash
 $ # Virtualenv modules installation (Unix based systems)
@@ -61,7 +61,7 @@ $ # .\env\Scripts\activate
 
 <br />
 
-**Step #3** - Install dependencies in virtualenv
+> **Step #3** - Install dependencies in virtualenv
 
 ```bash
 $ pip install -r requirements.txt
@@ -69,7 +69,7 @@ $ pip install -r requirements.txt
 
 <br />
 
-**Step #4** - setup `flask` command for our app
+> **Step #4** - setup `flask` command for our app
 
 ```bash
 $ export FLASK_APP=run.py
@@ -88,7 +88,7 @@ $ (Powershell) $env:FLASK_ENV = "development"
 
 <br />
 
-**Step #5** - start test APIs server at `localhost:5000`
+> **Step #5** - start test APIs server at `localhost:5000`
 
 ```bash
 $ flask run
