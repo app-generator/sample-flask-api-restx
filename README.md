@@ -96,7 +96,7 @@ $ flask run
 
 Use the API via `POSTMAN` or Swagger Dashboard.
 
-![Flask API Server - Swagger Dashboard.](https://user-images.githubusercontent.com/51070104/141950891-ea315fca-24c2-4929-841c-38fb950a478d.png) 
+![Flask API Sample - Swagger Dashboard.](https://user-images.githubusercontent.com/51070104/151857217-ec364df4-cc90-413f-8bbe-a65e45dc8c35.png)
 
 <br />
 
