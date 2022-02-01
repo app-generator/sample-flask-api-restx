@@ -38,7 +38,7 @@ update_model = rest_api.model('UpdateModel', {"data": fields.String(required=Tru
 """
 
 @rest_api.route('/api/datas')
-class Register(Resource):
+class Items(Resource):
 
     """
        Return all items
@@ -73,7 +73,7 @@ class Register(Resource):
                 "msg"    : "Item successfully created ["+ str(new_item.id)+"]"}, 200
 
 @rest_api.route('/api/datas/<int:id>')
-class GetItem(Resource):
+class ItemManager(Resource):
 
     """
        Return Item
