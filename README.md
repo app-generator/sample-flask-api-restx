@@ -1,4 +1,4 @@
-## Flask API Sample
+# Flask API Sample
 
 Simple [Flask API Server](https://appseed.us/boilerplate-code/flask-api-boilerplate) powered by Flask-RestX, SqlAlchemy, **SQLite** persistence - Provided by **AppSeed**. 
 
@@ -10,23 +10,11 @@ Simple [Flask API Server](https://appseed.us/boilerplate-code/flask-api-boilerpl
 - Simple, intuitive codebase - can be extended with ease. 
 - `Flask-restX`
 - `Docker` support 
+- Free [support](https://appseed.us/support) via email and [Discord](https://discord.gg/fZC6hup) (1k+ community).
 
 <br />
 
-"""
-API Interface:
-   
-   - /datas
-       - GET: return all items
-       - POST: create a new items
-   
-   - /datas/:id
-       - GET    : get item
-       - POST   : update item
-       - DELETE : delete item
-"""
-
-## API Definition
+## ✨ API Definition
 
 | Route  | Verb | Info | Status | 
 |    --- | ---  | --- | --- | 
@@ -38,7 +26,7 @@ API Interface:
 
 <br />
 
-## Quick Start in `Docker`
+## ✨ Quick Start in `Docker`
 
 > Get the code
 
@@ -61,7 +49,7 @@ The API server will start using the PORT `5000`.
 
 <br />
 
-## How to use the code
+## ✨ How to use the code
 
 > **Step #1** - Clone the project
 
@@ -125,7 +113,7 @@ Use the API via `POSTMAN` or Swagger Dashboard.
 
 <br />
 
-## Project Structure
+## ✨ Project Structure
 
 ```bash
 api-server-flask/
