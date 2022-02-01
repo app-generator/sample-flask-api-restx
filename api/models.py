@@ -18,7 +18,7 @@ class Datas(db.Model):
     date_created = db.Column(db.DateTime()  , default=datetime.utcnow)
 
     def __repr__(self):
-        return f"Data {self.data}"
+        return str( self.id ) 
 
     def save(self):
         db.session.add(self)

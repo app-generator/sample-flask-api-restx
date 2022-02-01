@@ -13,4 +13,4 @@ class BaseConfig():
     SQLALCHEMY_DATABASE_URI        = 'sqlite:///' + os.path.join(BASE_DIR, 'apidata.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
-    SECRET_KEY = "Super_s3cret7777"
+    SECRET_KEY = os.environ.get("SECRET_KEY")
