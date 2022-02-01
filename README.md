@@ -21,7 +21,7 @@ Simple [Flask API Server](https://appseed.us/boilerplate-code/flask-api-boilerpl
 | `/datas`    | **GET**    | return all items  | ✔️ | 
 |             | **POST**   | create a new item | ✔️ |
 | `/datas:id` | **GET**    | return one item   | ✔️ | 
-|             | **POST**   | update item       | ✔️ |
+|             | **PUT**    | update item       | ✔️ |
 |             | **DELETE** | delete item       | ✔️ |
 
 <br />
