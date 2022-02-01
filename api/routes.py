@@ -90,7 +90,6 @@ class ItemManager(Resource):
                 "msg"     : "Successfully return item [" +str(id)+ "]",
                 "data"    :  item.toJSON()}, 200
 
-
     """
        Update Item
     """
