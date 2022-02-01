@@ -19,7 +19,7 @@ API Interface:
    
    - /datas/:id
        - GET    : get item
-       - POST   : update item
+       - PUT    : update item
        - DELETE : delete item
 """
 
