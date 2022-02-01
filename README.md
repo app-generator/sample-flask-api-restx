@@ -13,6 +13,31 @@ Simple [Flask API Server](https://appseed.us/boilerplate-code/flask-api-boilerpl
 
 <br />
 
+"""
+API Interface:
+   
+   - /datas
+       - GET: return all items
+       - POST: create a new items
+   
+   - /datas/:id
+       - GET    : get item
+       - POST   : update item
+       - DELETE : delete item
+"""
+
+## API Definition
+
+| Route  | Verb | Info | Status | 
+|    --- | ---  | --- | --- | 
+| `/datas`    | **GET**    | return all items  | ✔️ | 
+|             | **POST**   | create a new item | ✔️ |
+| `/datas:id` | **GET**    | return one item   | ✔️ | 
+|             | **POST**   | update item       | ✔️ |
+|             | **DELETE** | delete item       | ✔️ |
+
+<br />
+
 ## Quick Start in `Docker`
 
 > Get the code
