@@ -1,6 +1,6 @@
 # Flask API Sample
 
-Simple [Flask API Server](https://appseed.us/boilerplate-code/flask-api-boilerplate) powered by Flask-RestX, SqlAlchemy, **SQLite** persistence - Provided by **AppSeed**. 
+Simple [Flask API Server](https://blog.appseed.us/simple-flask-api-server/) powered by Flask-RestX, SqlAlchemy, **SQLite** persistence - Provided by **AppSeed**. 
 
 <br />
 
